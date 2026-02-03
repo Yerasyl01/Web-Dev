@@ -1,0 +1,125 @@
+body {
+    margin-top: 10%;
+    background-color: #d3d3e333;
+    font-family: "Poppins", sans-serif;
+}
+.main {
+    margin: 0 20% 10%;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+hr {
+    opacity: 0.2;
+}
+
+
+#upper {
+    display: flex;
+}
+#title h1 {
+    color: #1e75ff;
+    font-size: 3.5em;
+    margin-block-end: 0;
+}
+#title p {
+    font-size: 1.2em;
+    margin-block-start: 0.3em;
+}
+#title {
+    padding-right: 5em;
+}
+#login-box {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px 2px lightgray;
+    width: 17.5em;
+}
+form input {
+    border-color: #d3d3d32e;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#login {
+    background-color: #1e75ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+form a {
+    color: #1e75ff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-block: 5px;
+}
+form hr {
+    width: 100%;
+}
+#create-account {
+    background-color: limegreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+#login-box h5 {
+    font-weight: 100;
+}
+#login-box h5 a {
+    color: black;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: white;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+#language {
+    display: flex;
+    align-items: center;
+}
+#language a {
+    padding-right: 10px;
+}
+#language button {
+    border-width: thin;
+    border-color: #d3d3d32e;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #00000099;
+    padding: 0 7px 0 7px;
+}
+#miscellanous {
+    display: flex;
+    flex-flow: wrap;
+}
+#miscellanous a {
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+#copyright {
+    color: gray;
+    font-weight: bold;
+    padding-top: 20px;
+}

@@ -1,0 +1,116 @@
+body {
+    font-family: "Google Sans", sans-serif;
+}
+hr {
+    border-color: #d3d3d354;
+}
+form, form a, input, button {
+    font-size: 12px;
+    font-weight: bold;
+}
+a, select {
+    color: gray;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#upper {
+    display: flex;
+    height: 612px;
+}
+#logo {
+    margin: 0;
+}
+#logo {
+    margin-left: 4%;
+    margin-top: 3%;
+}
+#logo img {
+    width: 60px;
+}
+#upper hr {
+    height: 610px;
+}
+#title {
+    text-align: center;
+    margin: 5% 10% 0 10%;
+}
+#title h1 {
+    font-family: "Lora", serif;
+    font-weight: normal;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 12%;
+    margin-right: 7%;
+    margin-left: 3%;
+}
+form label {
+    margin-bottom: 15px;
+    color: #000000d0;
+    font-size: 14px;
+}
+form input {
+    padding: 14px 10px;
+    border-color: #d3d3d32e;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+#login {
+    background-color: #1e84ff;
+    color: white;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 7px 10px;
+}
+#forgot-password {
+    text-align: center;
+    color: #000000b2;
+    margin-block-start: 5px;
+    margin-bottom: 3em;
+}
+#login-facebook {
+    border-color: #d3d3d354;
+    color: #000000b2;
+}
+form button {
+    padding: 7px 10px;
+    border-radius: 20px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+#create-account {
+    border-color: #1e84ffb3;
+    color: #1e84ff;
+}
+footer {
+    margin: 0 20%;
+    padding-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+#miscallenous {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#miscallenous::after {
+    content: "";
+    flex: auto;
+}
+#miscallenous a {
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+footer select {
+    color: gray;
+    border: none;
+    background: none;
+}
+#foot {
+    margin-top: 10px;
+}

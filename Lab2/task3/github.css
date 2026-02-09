@@ -1,0 +1,93 @@
+body, button {
+    font-family: "Mona Sans", sans-serif;
+}
+p {
+    color: #59636E;
+}
+button {
+    background-color: white;
+    padding: 15px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: solid 1px #d3d3d3e2;
+    border-radius: 7px;
+}
+.black-button {
+    background-color: #1b1f23f0;
+    color: white;
+    border: none;
+}
+#title {
+    margin: 10% 9%;
+    text-align: center;
+}
+#title h1 {
+    font-size: 64px;
+}
+#title button {
+    margin-top: 10px;
+}
+#main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    border: solid 1px #d3d3d3e2;
+    border-radius: 12px;
+    background-color: white;
+    padding: 0 16px 16px;
+}
+.shell {
+    padding: 32px 8px 8px;
+    width: 31%;
+}
+#recommended {
+    padding-top: 0px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #0d74ec;
+}
+#recommended h5 {
+    font-size: 14px;
+    margin-block-start: 11px;
+    margin-block-end: 5px;
+    color: white;
+}
+.card .top {
+    text-align: center;
+}
+.card .top h2 {
+    margin-block-end: 0;
+}
+.card .top p {
+    font-size: 14px;
+    margin-block-start: 10px;
+}
+#starting-at {
+    border: solid 1px #d3d3d3e2;
+    border-radius: 12px;
+    padding: 7px 16px;
+}
+.tag {
+    color: #59636E;
+    margin-bottom: 12px;
+}
+.tag span {
+    color: black;
+}
+.price {
+    font-size: 48px;
+}
+.currency {
+    font-size: 24px;
+}
+.card .top button {
+    width: 100%;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 7px;
+}

@@ -39,6 +39,9 @@ a, select {
     font-family: "Lora", serif;
     font-weight: normal;
 }
+#title img {
+    width: 500px;
+}
 form {
     display: flex;
     flex-direction: column;
